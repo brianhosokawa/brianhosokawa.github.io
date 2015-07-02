@@ -1064,7 +1064,7 @@ ul.plans-list li {
     padding: 20px;
 }
 .infoDetails h2 a{color:#fff;}
-.navbar-toggle {display:none;}
+.navbar-toggle {display:none !important;}
 /* Footer ---------------------------------------------------------- */
 footer {
     background:#111;
