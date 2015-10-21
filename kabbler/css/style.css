@@ -73,7 +73,7 @@ body {
     color: #333;
     overflow-x: hidden;
     margin: auto;
-    background: #444;
+    background: #f0f0f0;
     -webkit-font-smoothing: subpixel-antialiased;
 }
 h1,h2{
@@ -293,7 +293,7 @@ header .btn-new{
 /*services-------------------------------------- */
 #services{
     background: #fff;
-    padding: 150px 0px;
+    padding: 100px 0px;
 }
 .servicesList{
     margin: 0px;
@@ -353,7 +353,7 @@ header .btn-new{
 /* firstFeature section --------------------------------------------------*/
 #firstFeature{
     background: #f0f0f0;
-    padding: 150px 0px;
+    padding: 100px 0;
     overflow: hidden;
 }
 .welcomeText{
@@ -378,7 +378,7 @@ ul.feature-list{
     padding: 0px;
 }
 ul.feature-list li {
-    padding: 10px 0px;
+    padding: 5px 0px;
 }
 .mobile{
     margin: 0 auto;
@@ -436,10 +436,10 @@ ul.feature-list li {
     background: -ms-linear-gradient(left, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);
     background: linear-gradient(to right, rgba(0,0,0,0) 0%,rgba(0,0,0,0.5) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00000000', endColorstr='#80000000',GradientType=1 );
-    height: 87%;
+    height: 88%;
     left: 0;
-    right: 140px;
-    top: 7%;
+    right: 55px;
+    top: 6%;
     margin: 0 auto;
     position: absolute;
     width: 100px;
@@ -461,7 +461,8 @@ ul.feature-list li {
     background: #2a3759;
     text-align: right;
     position: relative;
-    height: 450px;
+    height: auto;
+	padding:100px 0;
     color: #fff;
 }
 .secondFeatureLeft{
@@ -480,7 +481,7 @@ ul.feature-list li {
     max-width: 100%;
 }
 #secondFeature h2{
-    margin-top: 100px;
+    margin-top: 0;
 }
 #secondFeature .circleSocial{
     float: right;
@@ -548,12 +549,12 @@ iframe,embed,object {
     padding:150px 0px ;
 }
 .thirdFeatureBg{
-    background: url("../images/bg2.jpg") no-repeat  center center   rgba(0, 0, 0, 0);
+    background: #fff;
     padding-top: 15px;
     padding-bottom: 15px;
     background-size: cover;
 }
-
+.full-width-img {max-width:100%;}
 .thirdFeatureWrapper{
     background: #f0f0f0;
     color: #fff;
@@ -568,6 +569,7 @@ iframe,embed,object {
 .thirdFeatureText{
     padding: 40px;
 }
+.thirdFeatureText .fa{color:#2a3759;font-size:26px;}
 .thirdFeatureText ul.feature-list li{
     color: #333;
     border-bottom:  1px solid rgba(255, 255, 255, 0.1);
@@ -576,18 +578,22 @@ iframe,embed,object {
     border-bottom: none;
 }
 .thirdFeatureText h4{
-    line-height: 30px;
+    line-height: 24px;
+	font-size:20px;
+	margin-bottom:8px;
 }
 .thirdFeatureText h4 i{
     margin-right: 5px;
     border-radius: 50%;
-    width: 40px;
-    height: 40px;
-    line-height: 40px;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
     text-align: center;
-    font-size: 22px;
+    font-size: 20px;
     display: inline-block;
+	background:none;
 }
+.thirdFeatureText p{font-size:14px;}
 /* parallax ------------------------------------------------------- */
 .parallaxBg {
     background: url(../images/bg-2.jpg) no-repeat center center fixed #444;
@@ -680,9 +686,14 @@ iframe,embed,object {
 }
 /*item style */
 #team{
-    padding: 150px 0px ;
+    padding: 100px 0px ;
     background: #f0f0f0;
 }
+#team h2{color:#ef543d;}
+
+.teamitem img {max-width:80%;margin-top:15px;}
+.teamitem h3{color:#ef543d;margin-bottom:0;}
+
 .owl-pagination{
     padding-top: 40px;
 }
@@ -910,7 +921,7 @@ ul.numbersList span{
 }
 /* plans style --------------------------------------------------------*/
 #plans{
-    padding: 150px 0px;
+    padding: 100px 0px;
     background: #fff;
 }
 #plans h2{color:#ef543d;}
