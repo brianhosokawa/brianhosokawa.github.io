@@ -493,7 +493,42 @@ ul.feature-list li {
     color: #fff;
     border-color: #fff;
 }
-
+/*secondFeature2 --------------------------------------- */
+#secondFeature2{
+    background: #2a3759;
+    text-align: right;
+    position: relative;
+    height: auto;
+	padding:100px 0;
+    color: #fff;
+}
+.secondFeatureLeft{
+    margin-right: 340px;
+}
+.secondFeatureRight{
+    width:300px;
+    float: right;
+    position: relative;
+    top: -90px;
+}
+.secondFeaturePhone{
+    position: relative;
+    top:0px;
+    right: 0px;
+    max-width: 100%;
+}
+#secondFeature h2{
+    margin-top: 0;
+}
+#secondFeature .circleSocial{
+    float: right;
+    display: inline-block;
+    margin-top: 20px;
+}
+#secondFeature .circleSocial li a:hover,#secondFeature .circleSocial li a:focus{
+    color: #fff;
+    border-color: #fff;
+}
 .mobileScreenWrapper {
     background: #fff;
     height: 440px;
@@ -624,11 +659,12 @@ iframe,embed,object {
 .downloadNumber span{color:#ef543d;}
 /* features ---------------------------------------------------- */
 #features{
-    background: #f0f0f0;
+    background: #fff;
     padding:50px 0px;
 }
+#features h2{color:#ef543d;}
 #featuresMobile{
-    margin-top: 300px;
+    margin-top: 0;
 }
 .features-left ul,.features-right ul{
     margin: 0px;
