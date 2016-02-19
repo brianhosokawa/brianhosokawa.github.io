@@ -46,6 +46,8 @@
     overflow: hidden !important;
 }
 
+a {color:#ef543e;}
+a:hover {color:#d73f29;}
 .status {
     width: 60px;
     height: 30px;
