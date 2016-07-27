@@ -659,6 +659,8 @@ iframe,embed,object {
     font-weight: 400;
 }
 .downloadNumber span{color:#0099fe;}
+.blue-bold {color:#0099fe;font-weight:700;}
+.bold {font-weight:700;}
 /* features ---------------------------------------------------- */
 #features{
     background: #fff;
@@ -1124,6 +1126,13 @@ ul.plans-list li {
 #plans .popular .price p{
     color: #fff;
 }
+
+#classic{
+    padding: 100px 0px;
+    background: #000;
+	color:#fff;
+}
+#classic h2{color:#0099fe;}
 /* clients -------------------------------------------------------- */
 #clients{
     background: #ffffff;
