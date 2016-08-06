@@ -728,6 +728,11 @@ iframe,embed,object {
 /*item style */
 #blockchain{
     padding: 100px 0px ;
+    background: #fff;
+}
+#blockchain2 h2{color:#0099fe;}
+#blockchain2{
+    padding: 100px 0px ;
     background: #f0f0f0;
 }
 #blockchain h2{color:#0099fe;}
@@ -739,7 +744,7 @@ iframe,embed,object {
 
 .teamitem img {max-width:80%;margin-top:15px;}
 .teamitem h3{color:#0099fe;margin-bottom:0;}
-
+.wizbios img{width:100%;}
 .owl-pagination{
     padding-top: 40px;
 }
