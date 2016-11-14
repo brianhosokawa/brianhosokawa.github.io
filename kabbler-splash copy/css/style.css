@@ -111,7 +111,7 @@ h1,h2,h3,h4,h5,h6 {
     height: 1px;
     margin: auto;
     width: 150px;
-    background: #0099fe;
+    background: #ef543d;
     margin-top: 20px;
 }
 hr{
@@ -120,11 +120,11 @@ hr{
 /* buttons */
 .btn-new{
     background: transparent;
-    border: 2px solid #0099fe;
+    border: 2px solid #ef543d;
     display: inline-block;
     padding: 15px 30px;
     border-radius: 30px;
-    color: #0099fe;
+    color: #ef543d;
     font-size: 14px;
     font-weight: 400;
     -webkit-transition: all .3s ease;
@@ -138,17 +138,17 @@ hr{
     white-space: nowrap;
 }
 .btn-new:hover,.btn-new:focus{
-    background: #0099fe;
+    background: #ef543d;
     color: #fff;
     text-decoration: none;
     outline: none;
 }
 .btn-bold{
-    background: #0099fe;
+    background: #ef543d;
     color: #fff;
 }
 .btn-bold:hover{
-    background: #007aca;
+    background: #e0432c;
 }
 .light{
     font-weight: 400;
@@ -245,7 +245,7 @@ hr{
     outline: none;
 }
 .navbar-nav li.active a,.navbar-nav li a:hover {
-    color:#0099fe;
+    color:#ef543d;
 }
 header .btn-new{
     padding: 8px 18px;
@@ -260,7 +260,7 @@ header .btn-new{
 /* Top intro --------------------------------------- */
 .logo{
     margin-bottom: 40px;
-	max-width:40%;
+	max-width:30%;
 }
 #intro {
     position: relative;
@@ -272,21 +272,21 @@ header .btn-new{
 	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.0);
 }
 .middle-intro{
-    padding-top: 150px;
+    padding-top: 50px;
     padding-bottom: 50px;
 }
 #intro h1{
     font-size: 36px;
 }
 #intro h1 span{
-    color:#0099fe;
+    color:#ef543d;
 }
 #intro .btn-new{
     margin-right: 10px;
     margin-bottom: 5px;
 }
 .intro-btn{
-    background: rgba(255,255,255,0.1);
+    background: #ef543e;
     position: absolute;
     bottom: 0px;
     width: 100%;
@@ -330,28 +330,28 @@ header .btn-new{
     z-index: 99;
 }
 .purple{
-    background: #0099fe;
+    background: #2a3759;
 }
 .purple .number{
-    background: #007aca;
+    background: #384b7e;
 }
 .pink{
-    background: #48f6d1;
+    background: #ef543d;
 }
 .pink .number{
-    background: #40c498;
+    background: #dc452f;
 }
 .blue{
-    background: #a17bf9;
+    background: #ffc22e;
 }
 .blue .number{
-    background: #6a6acb;
+    background: #e2af32;
 }
 .yellow{
-    background: #fd7092;
+    background: #a4be37;
 }
 .yellow .number{
-    background: #fa646e;
+    background: #8fa62e;
 }
 /* firstFeature section --------------------------------------------------*/
 #firstFeature{
@@ -587,7 +587,7 @@ iframe,embed,object {
     padding:150px 0px ;
 }
 .thirdFeatureBg{
-    background: transparent;
+    background: #fff;
     padding-top: 15px;
     padding-bottom: 15px;
     background-size: cover;
@@ -599,7 +599,7 @@ iframe,embed,object {
 }
 .thirdFeatureText-header{
     padding:40px;
-    background: #0099fe;
+    background: #ef543d;
 }
 .thirdFeatureText-header h2{
     margin: 0px;
@@ -634,7 +634,7 @@ iframe,embed,object {
 .thirdFeatureText p{font-size:14px;}
 /* parallax ------------------------------------------------------- */
 .parallaxBg {
-    background: url(../images/bg.jpg) no-repeat center center fixed #444;
+    background: #fff;
     background-attachment: fixed !important;
     -webkit-background-size: 100%;
     -moz-background-size: 100%;
@@ -658,13 +658,13 @@ iframe,embed,object {
     font-size: 50px;
     font-weight: 400;
 }
-.downloadNumber span{color:#0099fe;}
+.downloadNumber span{color:#ef543d;}
 /* features ---------------------------------------------------- */
 #features{
     background: #fff;
     padding:50px 0px;
 }
-#features h2{color:#0099fe;}
+#features h2{color:#ef543d;}
 #featuresMobile{
     margin-top: 0;
 }
@@ -724,22 +724,15 @@ iframe,embed,object {
     background:#fff;
 }
 /*item style */
-#blockchain{
-    padding: 100px 0px ;
-    background: #f0f0f0;
-}
-#blockchain h2{color:#0099fe;}
 #team{
     padding: 100px 0px ;
     background: #f0f0f0;
 }
-#team h2{color:#0099fe;}
+#team h2{color:#ef543d;}
 
 .teamitem img {max-width:80%;margin-top:15px;}
-.teamitem h3{color:#0099fe;margin-bottom:0;}
-.teamitem img {max-width:80%;margin-top:15px;}
-.teamitem h3{color:#0099fe;margin-bottom:0;}
-.wizbios img{width:100%;}
+.teamitem h3{color:#ef543d;margin-bottom:0;}
+
 .owl-pagination{
     padding-top: 40px;
 }
@@ -835,7 +828,7 @@ iframe,embed,object {
 }
 .thumb-overlay ul li a{
     font-size: 16px;
-    color:#0099fe;
+    color:#ef543d;
     display: inline-block;
     -webkit-transition: all .2s ease-in-out;
     -moz-transition: all .2s ease-in-out;
@@ -886,7 +879,7 @@ iframe,embed,object {
 
 /* numbers ---------------------------------------------------------------- */
 #market {background:#2a3759 !important;}
-#numbers {background:#333333!important;}
+#numbers {background:#2a3759 !important;}
 #numbers .overlay{
     padding: 0px 0px 80px 0px;
 }
@@ -904,32 +897,11 @@ ul.numbersList li:last-child{
     border: none;
 }
 ul.numbersList h4{
-    color: #0099fe;
+    color: #ef543d;
     margin-bottom: 0px;
 }
 ul.numbersList span{
     font-size: 90px;
-    font-weight: 700;
-}
-ul.numbersList2 {
-    margin: 0px auto;
-    padding: 0px;
-    overflow: hidden;
-    list-style: none;
-    text-align: center;
-}
-ul.numbersList2 li{
-    border-right: 1px solid rgba(255, 255, 255, 0.1);
-}
-ul.numbersList2 li:last-child{
-    border: none;
-}
-ul.numbersList2 h4{
-    color: #0099fe;
-    margin-bottom: 0px;
-}
-ul.numbersList2 span{
-    font-size: 48px;
     font-weight: 700;
 }
 
@@ -938,68 +910,6 @@ ul.numbersList2 span{
     padding: 10px 0;
     position: relative;
     z-index: 2;
-}
-#wiz-team {background:#f0f0f0;padding: 100px 0px;}
-#wiz-team h2{color:#0099fe;}
-#wiz-team .item{
-    background: #f0f0f0;
-    border-top: 6px solid #2a3759;
-    text-align: center;
-    padding: 40px 0px;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-    z-index: 2;
-}
-#wiz-team .item:hover{
-    transform: scale(1.1,1.1);
-    z-index: 99;
-}
-#wiz-team .item .package{
-    font-weight: 700;
-    font-size: 30px;
-}
-#wiz-team .item .price{
-    height:100px;
-}
-#wiz-team .item .price p {
-    color: #0099fe;
-    display: inline-block;
-    font-weight: 700;
-    font-size:70px;
-    height:100px;
-    position: relative;
-    margin: 0px;
-    line-height: 100px;
-}
-#wiz-team .popular .price p {
-    font-size: 90px;
-}
-#wiz-team .item .price p span {
-    line-height: normal;
-    display: inline-block;
-    font-size: 25px;
-    font-weight: 700;
-    position: absolute;
-}
-#wiz-team .item p span {color:#0099fe;font-weight:bold;}
-#wiz-team .item .price p span.currency {
-    right: -15px;
-    top: 15px;
-}
-ul.plans-list{
-    margin: 0px;
-    padding: 30px 0px;
-    list-style: none;
-}
-ul.plans-list li {
-    font-weight: 400;
-    letter-spacing: 1px;
-    padding: 10px 0px;
-}
-.popular ul.plans-list li {
-    color: #fff;
 }
 /* download style --------------------------------------------------------*/
 #download{
@@ -1011,9 +921,9 @@ ul.plans-list li {
 .btn-app-download {
     padding: 15px 30px 15px 80px;
     position: relative;
-    border:2px solid #0099fe;
+    border:2px solid #ef543d;
     display: inline-block;
-    color: #0099fe;
+    color: #ef543d;
     margin: 5px;
     text-align: left;
     border-radius: 40px;
@@ -1053,7 +963,7 @@ ul.plans-list li {
     padding: 100px 0px;
     background: #fff;
 }
-#plans h2{color:#0099fe;}
+#plans h2{color:#ef543d;}
 #plans .item{
     background: #f0f0f0;
     border-top: 6px solid #2a3759;
@@ -1077,7 +987,7 @@ ul.plans-list li {
     height:100px;
 }
 #plans .item .price p {
-    color: #0099fe;
+    color: #ef543d;
     display: inline-block;
     font-weight: 700;
     font-size:70px;
@@ -1115,7 +1025,7 @@ ul.plans-list li {
     color: #fff;
 }
 #plans .popular{
-    background: #0099fe;
+    background: #ef543d;
     color: #fff;
     transform: scale(1.1,1.1);
 }
@@ -1135,7 +1045,7 @@ ul.plans-list li {
     overflow: hidden;
     text-align: center;
 }
-#clients h2{color:#0099fe;}
+#clients h2{color:#ef543d;}
 .clientsLogos span{
     display: inline-block;
     margin: 0px 20px;
@@ -1180,18 +1090,18 @@ ul.plans-list li {
 #contactForm input {
     background: transparent;
     border:none;
-    border-bottom: 2px solid #0099fe;
+    border-bottom: 2px solid #ef543d;
     height: 40px;
     margin-bottom: 20px;
     padding: 10px;
     width: 100%;
-    color:#0099fe;
+    color:#ef543d;
     outline: none;
 }
 #contactForm textarea {
     background: transparent;
     border:none;
-    border-bottom: 2px solid #0099fe;
+    border-bottom: 2px solid #ef543d;
     height: 40px;
     max-height: 120px;
     resize: none;
@@ -1199,7 +1109,7 @@ ul.plans-list li {
     overflow: hidden;
     padding: 10px;
     width: 100%;
-    color:#0099fe;
+    color:#ef543d;
     outline: none;
 }
 #contactForm .success,#contactForm .error {
@@ -1221,10 +1131,10 @@ footer p {
 footer p a {
     font-weight: 700;
     color: #fff;
-    color: #0099fe;
+    color: #ef543d;
 }
 footer p a:hover {
-    color: #0099fe;
+    color: #ef543d;
 }
 .circleSocial {
     padding: 0;
@@ -1250,9 +1160,9 @@ footer p a:hover {
     margin: 2px;
 }
 .circleSocial li a:hover,.circleSocial li a:focus {
-    border-color: #0099fe;
+    border-color: #ef543d;
     outline: none;
-    color: #0099fe;
+    color: #ef543d;
 }
 /* responsive style ----------------------------------------------------------------- */
 /* Large Devices, Wide Screens */
@@ -1349,8 +1259,6 @@ footer p a:hover {
     }
     ul.numbersList h4 {font-size: 16px;}
     ul.numbersList span{font-size: 60px;}
-	 ul.numbersList2 h4 {font-size: 16px;}
-    ul.numbersList2 span{font-size: 48px;}
     .infoDetails h2{font-size: 24px;}
     .infoDetails span.phone{font-size: 30px;}
     .downloadNumber{font-size:40px; }
