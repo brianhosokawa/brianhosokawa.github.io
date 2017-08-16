@@ -1059,6 +1059,10 @@ ul.plans-list li {
 .popular ul.plans-list li {
     color: #fff;
 }
+
+#partners {background:#f0f0f0;padding: 100px 0px;}
+#partners h2{color:#5d83b1;}
+#partners img{width:80%;}
 /* download style --------------------------------------------------------*/
 #download{
     color: #fff;
