@@ -1010,6 +1010,7 @@ ul.numbersList2 span{
     transition: all .3s ease-in-out;
     z-index: 2;
 }
+#wiz-team img {max-width:250px;}
 #wiz-team .item:hover{
     transform: scale(1.1,1.1);
     z-index: 99;
@@ -1063,6 +1064,7 @@ ul.plans-list li {
 #partners {background:#f0f0f0;padding: 100px 0px;}
 #partners h2{color:#5d83b1;}
 #partners img{width:80%;}
+#partners .logos {text-align:center;}
 /* download style --------------------------------------------------------*/
 #download{
     color: #fff;
