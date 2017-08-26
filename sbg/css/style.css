@@ -786,6 +786,16 @@ iframe,embed,object {
     background: #fff;
 }
 #blockchain h2{color:#5d83b1;}
+#blockchain-2{
+    padding: 100px 0px ;
+    background: #fff;
+}
+#blockchain-2 h2{color:#5d83b1;}
+
+#blockchain-2 .yellow {height:auto !important;}
+#blockchain-2 .blue {height:auto !important;}
+#blockchain-2 .purple {height:auto !important;}
+#blockchain-2 .pink {height:auto !important;}
 #team{
     padding: 100px 0px ;
     background: #f0f0f0;
@@ -997,7 +1007,7 @@ ul.numbersList2 span{
     position: relative;
     z-index: 2;
 }
-#wiz-team {background:#fff;padding: 100px 0px;}
+#wiz-team {background:#f0f0f0;padding: 100px 20px;}
 #wiz-team h2{color:#5d83b1;}
 #wiz-team .item{
     background: #f0f0f0;
@@ -1010,7 +1020,7 @@ ul.numbersList2 span{
     transition: all .3s ease-in-out;
     z-index: 2;
 }
-#wiz-team img {max-width:250px;}
+#wiz-team img {max-width:100%;}
 #wiz-team .item:hover{
     transform: scale(1.1,1.1);
     z-index: 99;
@@ -1061,9 +1071,9 @@ ul.plans-list li {
     color: #fff;
 }
 
-#partners {background:#f0f0f0;padding: 100px 0px;}
+#partners {background:#fff;padding: 100px 0px;}
 #partners h2{color:#5d83b1;}
-#partners img{width:80%;}
+#partners img{width:70%;}
 #partners .logos {text-align:center;}
 /* download style --------------------------------------------------------*/
 #download{
